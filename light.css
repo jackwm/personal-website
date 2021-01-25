@@ -60,3 +60,18 @@ pre {
 	border-radius: 4px;
 	overflow-x: scroll;
 }
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.prj-img {
+  margin-top: 15px
+}
+
+.img-title {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
