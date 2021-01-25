@@ -1,0 +1,62 @@
+html {
+	font-size: 22px;
+	font-family: 'Sorts Mill Goudy', Goudy, serif;
+	line-height: 1.35;
+	background: #fefbf0;
+	color: #111;
+	min-height: 100vh;
+}
+@media (max-width: 576px) {
+  html { font-size: 16px; }
+}
+body {
+	margin: auto;
+	width: 90vw;
+	max-width: 36rem;
+	text-align: justify;
+	hyphens: auto;
+}
+header {
+	text-align: center;
+}
+h1, h2 {
+	font-weight: normal;
+}
+a {
+	color: #3030b0;
+}
+hr {
+	overflow: visible;
+	padding: 0;
+	border: none;
+	border-top: 1px solid #333;
+	height: 0;
+	color: #333;
+	text-align: center;
+	margin: 1.5rem 0 1.5rem 0;
+}
+hr:after {
+	content: "";
+	position: relative;
+	top: -6px;
+	padding: 0 18px;
+	background: #fefbf0 url(vine.svg) no-repeat center 0;
+}
+dt {
+	margin-top: 1rem;
+	font-style: italic;
+}
+pre, code, kbd {
+	font-family: 'Ubuntu Mono', monospace;
+}
+code, kbd {
+	font-size-adjust: 0.48;
+}
+pre {
+	background: #333;
+	color: greenyellow;
+	font-size: 70%;
+	padding: 4px;
+	border-radius: 4px;
+	overflow-x: scroll;
+}
